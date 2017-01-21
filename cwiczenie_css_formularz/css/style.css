@@ -1,5 +1,34 @@
-label {
-    color:blueviolet;
-    background:yellow;
+section.kontainer {
+    background-color: #213b50;
+    padding-left: 10px;
+    color: aliceblue;
 }
 
+input,
+select,
+textarea {
+    background-color: #2b4a64;
+}
+
+label,
+option,
+select {
+    color: #ffffff;
+}
+
+input:focus {
+    background-color: #4e708c;
+}
+
+select:focus {
+    background-color: #4e708c;
+}
+
+textarea:focus {
+    background-color: #4e708c;
+}
+
+input[type="submit"] {
+    background-color: greenyellow;
+    color: white;
+}

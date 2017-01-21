@@ -6,4 +6,15 @@ div[suma] {
     background-color: crimson;
 }
 
+div[suma="1500"] {
+    color: greenyellow;
+}
+
+div[detaliczny~="tak"] {
+    color: yellow;
+}
+
+div[detaliczny^="moze"] {
+   background-color: aquamarine;
+}
 
