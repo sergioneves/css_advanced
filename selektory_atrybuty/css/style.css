@@ -1,0 +1,7 @@
+.klient:nth-child(even){
+    background-color: bisque;
+}
+
+.suma{
+    background-color: crimson;
+}
