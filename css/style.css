@@ -1,0 +1,9 @@
+#p1::before{
+    content: "Przed elementem :-) ";
+    color: green;
+}
+
+ #p1::after{
+     content: " Za elementem";
+     color: indianred;
+}
