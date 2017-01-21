@@ -38,3 +38,7 @@ div.klient:nth-child(even) {
 div.klient:nth-child(odd) {
     background-color: lightpink;
 }
+
+div.klient:nth-child(5n+2) {
+    background-color: olivedrab;
+}
