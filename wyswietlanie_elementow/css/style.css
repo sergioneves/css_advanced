@@ -10,10 +10,20 @@
     display: inline;
 }
 
-#inline_p1 p {
+#inline_p1 {
     background-color: greenyellow;
 }
 
-#inline_p2 p {
+#inline_p2 {
     background-color: teal;
+    mediumvioletred
+}
+
+#elementy_inline_block > li {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: beige;
+    border: 1px dotted red;
 }
