@@ -9,10 +9,14 @@
 }
 
  #p3::first-letter{
-     color: indianred;
+     color: deeppink;
      text-transform: uppercase;
 }
 
 #p4::first-line{
      background-color: yellow;
      }
+
+p::selection{
+    background-color: coral;
+}

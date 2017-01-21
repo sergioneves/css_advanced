@@ -1,22 +1,36 @@
-#p1::before{
-    content: "Przed elementem :-) ";
-    color: green;
+a {
+    text-decoration: none;
 }
 
- #p2::after{
-     content: " Za elementem";
-     color: indianred;
+a:link {
+    background-color: aquamarine;
 }
 
- #p3::first-letter{
-     color: deeppink;
-     text-transform: uppercase;
+a:visited {
+    color: lightskyblue;
 }
 
-#p4::first-line{
-     background-color: yellow;
-     }
+a:hover {
+    text-decoration: underline;
+}
 
-p::selection{
-    background-color: coral;
+a:focus {
+    color: firebrick;
+}
+
+
+/*  
+!!! focus nadpisuje pseudoklasę aktywną !!!
+a:active {
+color: fuchsia;
+}
+*/
+
+p:lang(pl){
+    font-style: italic;
+    color:darkcyan;
+}
+
+div.klient:nth-child(even) {
+    background-color: beige;
 }
