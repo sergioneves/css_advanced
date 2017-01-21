@@ -34,3 +34,7 @@ p:lang(pl){
 div.klient:nth-child(even) {
     background-color: beige;
 }
+
+div.klient:nth-child(odd) {
+    background-color: lightpink;
+}
