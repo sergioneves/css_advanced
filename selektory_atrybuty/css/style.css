@@ -2,6 +2,8 @@
     background-color: bisque;
 }
 
-.suma{
+div[suma] {
     background-color: crimson;
 }
+
+
